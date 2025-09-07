@@ -91,3 +91,9 @@ a {
 a:hover {
     color: #2c3e50; 
 }
+
+ol, ul {
+    margin: 5px 0;
+    padding-left: 20px;
+    color: #333;
+}
