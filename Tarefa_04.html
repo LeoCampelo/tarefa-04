@@ -34,9 +34,25 @@
             <section class="section">
                 <h2 class="section-title">Audios</h2>
                 <h3 class="section-subtitle">Audio em formato mp3:</h3>
+                <!-- Audio com formato .mp3 com controls -->
                 <audio src="src/audios/audio_1_mp3.mp3" alt="Audio em formato mp3" controls></audio>
                 <h3 class="section-subtitle">Audio em formato ogg:</h3>
+                <!-- Audio com formato .ogg com controls -->
                 <audio src="src/audios/audio_1_ogg.ogg" alt="Audio em formato ogg" controls></audio>
+            </section>
+            <!-- Section de formulário -->
+            <section class="section">
+                <h2 class="section-title">Formulário</h2>
+                <form>
+                    <!-- Campo nome com caixa para digitar -->
+                    <label for="nome">Nome:</label>  <input type="text" id="nome" name="nome">
+                    <!-- Campo e-mail com caixa para digitar -->
+                    <label for="nome">E-mail:</label>  <input type="email" id="email" name="email">
+                    <!-- Campo mensagem com area para digitar -->
+                    <label for="nome">Mensagem:</label>  <textarea id="mensagem" name="mensagem"></textarea>
+                    <!-- Botão de envio -->
+                    <button type="submit" value="Enviar">Enviar</button>
+                </form>
             </section>
         </main>
 
