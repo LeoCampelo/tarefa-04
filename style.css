@@ -117,3 +117,14 @@ td {
 .td_center {
     text-align: center;
 }
+
+#introducao {
+    font-style: italic;
+    color: #4a6491;
+}
+
+.destaque {
+    background-color: #ffff99; 
+    padding: 10px;
+    border-left: 5px solid #ffcc00;
+}
