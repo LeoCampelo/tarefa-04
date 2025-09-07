@@ -80,3 +80,14 @@ button[type="submit"] {
 button[type="submit"]:hover {
     background-color: #4a6491;
 }
+
+a {
+    color: #4a6491; 
+    font-size: 20px;
+    text-decoration: none; 
+    transition: color 0.3s ease; 
+}
+
+a:hover {
+    color: #2c3e50; 
+}
